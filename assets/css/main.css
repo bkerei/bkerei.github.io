@@ -1,13 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/*
-	Caminar by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -111,106 +104,57 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	/* Containers */
 
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 81.25rem;
-			min-width: 65rem;
-		}
-
-		.container.\37 5\25 {
-			width: 48.75rem;
-		}
-
-		.container.\35 0\25 {
-			width: 32.5rem;
-		}
-
-		.container.\32 5\25 {
-			width: 16.25rem;
-		}
-
-		.container {
-			width: 65rem;
-		}
-
+	.container {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	@media screen and (max-width: 980px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
-		}
-
-		.container.\37 5\25 {
-			width: 67.5%;
-		}
-
-		.container.\35 0\25 {
-			width: 45%;
-		}
-
-		.container.\32 5\25 {
-			width: 22.5%;
-		}
-
-		.container {
-			width: 90%;
-		}
-
+	.container.\31 25\25 {
+		width: 100%;
+		max-width: 100rem;
+		min-width: 80rem;
 	}
 
-	@media screen and (max-width: 736px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
-		}
-
-		.container.\37 5\25 {
-			width: 67.5%;
-		}
-
-		.container.\35 0\25 {
-			width: 45%;
-		}
-
-		.container.\32 5\25 {
-			width: 22.5%;
-		}
-
-		.container {
-			width: 90% !important;
-		}
-
+	.container.\37 5\25 {
+		width: 60rem;
 	}
 
-	@media screen and (max-width: 480px) {
+	.container.\35 0\25 {
+		width: 40rem;
+	}
+
+	.container.\32 5\25 {
+		width: 20rem;
+	}
+
+	.container {
+		width: 80rem;
+	}
+
+	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
 			width: 100%;
-			max-width: 112.5%;
-			min-width: 90%;
+			max-width: 100rem;
+			min-width: 80rem;
 		}
 
 		.container.\37 5\25 {
-			width: 67.5%;
+			width: 60rem;
 		}
 
 		.container.\35 0\25 {
-			width: 45%;
+			width: 40rem;
 		}
 
 		.container.\32 5\25 {
-			width: 22.5%;
+			width: 20rem;
 		}
 
 		.container {
-			width: 90% !important;
+			width: 80rem;
 		}
 
 	}
@@ -1678,7 +1622,7 @@
 				margin: auto;
 				right: 0;
 				bottom: 0;
-				left: 0;
+				left: 0.5rem;
 				width: 50%;
 				height: 1px;
 				background-color: rgba(0, 0, 0, 0.125);
@@ -1842,7 +1786,7 @@
 					margin: auto;
 					right: 0;
 					bottom: 0;
-					left: 0;
+					left: 0.5rem;
 					width: 10%;
 					height: 1px;
 					background-color: rgba(0, 0, 0, 0.125);
@@ -1870,7 +1814,7 @@
 		.box.alt {
 			border: 0;
 			border-radius: 0;
-			padding: 0;
+			padding: 0.5rem;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1979,7 +1923,7 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 0.5rem;
 				width: 100%;
 			}
 
@@ -2097,7 +2041,7 @@
 		color: inherit;
 		display: block;
 		outline: 0;
-		padding: 0 1rem;
+		padding: 1%;
 		text-decoration: none;
 		width: 100%;
 	}
@@ -2433,7 +2377,7 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 		padding-left: 1.25rem;
 	}
 
@@ -2444,7 +2388,7 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2rem 0;
-		padding-left: 1rem;
+		padding-left: 0.5rem;
 	}
 
 		ul li {
@@ -2614,24 +2558,24 @@
 
 	header p {
 		position: relative;
-		margin: 0 0 1.5rem 0;
+		margin:  1.5rem 0;
 	}
 
 	header h2 + p {
 		font-size: 1.25rem;
-		margin-top: -1rem;
+		margin-top: 1rem;
 	}
 
 	header h3 + p {
 		font-size: 1.1rem;
-		margin-top: -0.8rem;
+		margin-top: 1.5rem;
 	}
 
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
 		font-size: 0.9rem;
-		margin-top: -0.6rem;
+		margin-top: 0.6rem;
 	}
 
 	header p {
@@ -2716,7 +2660,7 @@
 			}
 
 			.spotlight.alt h3 {
-				color: #FFF;
+				color:grey;
 			}
 
 			.spotlight.alt .image {
@@ -2928,7 +2872,7 @@
 			position: fixed;
 			display: block;
 			top: 0;
-			left: 0;
+			left: 0.5rem;
 			height: 100%;
 			width: 100%;
 			z-index: -1;
@@ -3042,9 +2986,9 @@
 				content: '';
 				position: absolute;
 				margin: auto;
-				right: 0;
+				right: 0.5rem;
 				bottom: 0;
-				left: 0;
+				left: 0.5rem;
 				width: 10%;
 				height: 1px;
 				background-color: rgba(0, 0, 0, 0.125);
@@ -3055,7 +2999,7 @@
 			font-weight: 300;
 			font-size: .8rem;
 			letter-spacing: .25rem;
-			margin: 0;
+			margin: 0.5rem;
 		}
 
 		.wrapper > header.special {
@@ -3174,3 +3118,4 @@
 			}
 
 		}
+  
